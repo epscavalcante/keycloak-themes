@@ -1,3 +1,6 @@
+FROM quay.io/keycloak/keycloak:26.5.3 AS dev
+
+
 FROM quay.io/keycloak/keycloak:26.5.3 AS builder
 
 ENV KC_DB=postgres
@@ -11,7 +14,7 @@ WORKDIR /opt/keycloak
 RUN /opt/keycloak/bin/kc.sh build
 
 
-FROM quay.io/keycloak/keycloak:26.5.3
+FROM quay.io/keycloak/keycloak:26.5.3 as production
 
 COPY --from=builder /opt/keycloak/ /opt/keycloak/
 
