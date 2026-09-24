@@ -1,0 +1,52 @@
+/* @import '../fonts/font.css'; */
+
+body {
+  font-family: 'Geist', sans-serif !important;
+}
+
+:root {
+  --pf-v5-global--FontFamily--sans-serif: 'Geist', sans-serif;
+  --keycloak-logo-url: url('../img/logo.svg');
+  --keycloak-logo-height: 80px;
+  --keycloak-logo-width: 300px;
+  --keycloak-card-top-color: black;
+
+  --pf-v5-global--link--Color: "#333";
+  --pf-v5-global--primary-color--100: #96c121;
+  --pf-v5-global--active-color--100: #7ea81c;
+  --pf-v5-global--focus-color--100: #7ea81c;
+
+  --pf-v5-global--primary-color--100: #96c121;
+  --pf-v5-global--primary-color--200: #7ea81c;
+  --pf-v5-global--primary-color--light-100: #96c121;
+  --pf-v5-global--primary-color--dark-100: #7ea81c;
+
+  .pf-v5-c-button {
+    --pf-v5-c-button--m-primary--Color: "#000";
+    --pf-v5-c-button--m-primary--Color: "#000";
+  }
+
+  .pf-v5-c-button.pf-m-primary:hover {
+    --pf-v5-c-button--m-primary--hover--Color: "#000";
+  }
+
+  --pf-v5-c-form-control--focus--after--BorderBottomColor: #96c121;
+
+  --pf-v5-c-form-control--m-invalid--after--BorderColor: green;
+}
+
+.login-pf body {
+  background: radial-gradient(circle at bottom, #96c121, #f1f1f1 70%);
+  min-height: 100vh;
+}
+
+div.kc-logo-text {
+  background-image: var(--keycloak-logo-url);
+  height: var(--keycloak-logo-height);
+  width: var(--keycloak-logo-width);
+  margin-left: 0;
+}
+
+.pf-v5-c-button.pf-m-primary:hover {
+  transform: translateY(-1px);
+}

@@ -1,0 +1,19 @@
+<svg width="190" height="65" viewBox="0 0 190 65" fill="none"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="title desc">
+  <title id="title">epscavalcante.dev</title>
+  <desc id="desc">Logo com estrela verde e texto epscavalcante.dev em negrito</desc>
+
+  <path
+    d="M26 14.5L29.38 24.03L39.48 24.31L31.49 30.48L34.31 40.18L26 34.46L17.69 40.18L20.51 30.48L12.52 24.31L22.62 24.03L26 14.5Z"
+    fill="#96c121"/>
+
+  <text x="48" y="38.5"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17"
+        font-weight="700"
+        letter-spacing="-0.35"
+        fill="#111111">
+    epscavalcante.dev
+  </text>
+</svg>
